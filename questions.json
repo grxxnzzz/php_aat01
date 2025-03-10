@@ -1,0 +1,57 @@
+[
+    {
+        "text": "Какой язык используется для создания веб-приложений?",
+        "type": "single",
+        "options": {
+            "a": "PHP",
+            "b": "HTML",
+            "c": "CSS",
+            "d": "JavaScript"
+        },
+        "correct": "a"
+    },
+    {
+        "text": "Какие из перечисленных являются языками программирования?",
+        "type": "multiple",
+        "options": {
+            "a": "Python",
+            "b": "HTML",
+            "c": "Java",
+            "d": "CSS"
+        },
+        "correct": ["a", "c"]
+    },
+    {
+        "text": "Что означает аббревиатура CSS?",
+        "type": "single",
+        "options": {
+            "a": "Cascading Style Sheets",
+            "b": "Creative Style System",
+            "c": "Computer Style Sheet",
+            "d": "Cascading System Sheets"
+        },
+        "correct": "a"
+    },
+    {
+        "text": "Выберите правильные утверждения о PHP:",
+        "type": "multiple",
+        "options": {
+            "a": "PHP - язык программирования",
+            "b": "PHP используется для серверной разработки",
+            "c": "PHP работает только на Windows",
+            "d": "PHP является языком разметки"
+        },
+        "correct": ["a", "b"]
+    },
+    {
+        "text": "Что такое HTML?",
+        "type": "single",
+        "options": {
+            "a": "Язык программирования",
+            "b": "Язык разметки",
+            "c": "База данных",
+            "d": "Протокол передачи данных"
+        },
+        "correct": "b"
+    }
+]
