@@ -149,3 +149,10 @@ table th {
 tr:nth-child(even) {
     background-color: #f0f0f0;
 }
+
+div#tableResults {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}

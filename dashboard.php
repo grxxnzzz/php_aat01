@@ -8,7 +8,7 @@ session_start();
 
 // Пример простой аутентификации
 $adminUser = 'admin';
-$adminPass = 'password'; // В реальном проекте рекомендуется хранить хеши паролей
+$adminPass = 'password';
 
 if (!isset($_SESSION['is_admin'])) {
     if (isset($_POST['username']) && isset($_POST['password'])) {
@@ -59,6 +59,7 @@ $results = loadResults();
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="tableResults">
     <h1>Результаты тестов</h1>
     <table border="1">
         <thead>
@@ -82,6 +83,15 @@ $results = loadResults();
             <?php endforeach; ?>
         </tbody>
     </table>
-    <a href="index.php"><button>Вернуться на главную</button></a>
+    </div>
+    <a><button id="downloadPDFbtn">Скачать в формате PDF</button></a>
+    <a href="index.php"><button id="backbtn">Вернуться на главную</button></a>
+
+    <!-- JS SCRIPT -->
+    <!-- Библиотека для преобразования HTML элемента в PDF - html2pdf -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <!-- Мой скрипт -->
+     <script src="script.js"></script>
+
 </body>
 </html>
